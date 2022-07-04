@@ -24,9 +24,10 @@ public class addressBook {
 		System.out.println("Enter phone number");
 		int pNumber = scanner.nextInt();
 		System.out.println("Enter email");
-		String email = scanner.nextLine();
+		String email = scanner.next();
 
 		Contacts contact = new Contacts(fName, lName, city, state, zip, pNumber, email);
+		contact.display();
 	}
 
 }

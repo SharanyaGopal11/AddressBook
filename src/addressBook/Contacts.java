@@ -77,5 +77,8 @@ public class Contacts {
 		this.email = email;
 	}
 	
+	public void display(){
+		System.out.println("First name is "+this.fName+" last name is "+this.lName+" city "+this.city+" state "+this.state+" zip code "+this.zip+" phonenumber "+this.phoneNumber+" email "+this.email);
+	}
 	
 }
