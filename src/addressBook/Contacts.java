@@ -10,16 +10,16 @@ public class Contacts {
 	int phoneNumber;
 	String email;
  
-	public Contacts(String fName, String lName, String city, String state, int zip, int phoneNumber, String email){
-		this.fName = fName;
-		this.lName = lName;
-		this.city = city;
-		this.state = state;
-		this.zip = zip;
-		this.phoneNumber = phoneNumber;
-		this.email = email;
-		
-	}
+//	public Contacts(String fName, String lName, String city, String state, int zip, int phoneNumber, String email){
+//		this.fName = fName;
+//		this.lName = lName;
+//		this.city = city;
+//		this.state = state;
+//		this.zip = zip;
+//		this.phoneNumber = phoneNumber;
+//		this.email = email;
+//		
+//	}
 
 	public String getfName() {
 		return fName;
@@ -77,8 +77,5 @@ public class Contacts {
 		this.email = email;
 	}
 	
-	public void display(){
-		System.out.println("First name is "+this.fName+" last name is "+this.lName+" city "+this.city+" state "+this.state+" zip code "+this.zip+" phonenumber "+this.phoneNumber+" email "+this.email);
-	}
 	
 }
